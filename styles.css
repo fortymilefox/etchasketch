@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  max-width: 500px;
+  min-height: 500px;
+  margin: 3rem auto;
+  border: 2px solid;
+}
+
+.grid-square {
+  border: 1px solid black;
+}
+
