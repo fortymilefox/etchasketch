@@ -12,11 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <div id="outer-container" class="container">
-      <div id="grid-container" class="grid"></div>
+  <body> 
+    <div class="btn-controls">
+      <button id="clear">Clear</button>
+      <button id="default">Default</button>
     </div>
-    
-    <script src="scripts.js"></script>
+    <div class="slider">
+      <input type="range" min="6" max="100" value="16" id="slider">
+    </div> 
+    <div class="grid-container"></div>
   </body>
+  <script src="scripts.js"></script>
 </html>
