@@ -7,18 +7,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ETCH-A-SKETCH</title>
+    <title>Sketch-N-Etch</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
     <link rel="stylesheet" href="styles.css">
   </head>
+  <h1>Sketch-N-Etch</h1>
   <body> 
     <div class="btn-controls">
       <button id="clear">Clear</button>
       <button id="default">Default</button>
-    </div>
-    <div class="slider">
-      <input type="range" min="6" max="100" value="16" id="slider">
+      <button id="rainbow">RAINBOW!</button>
+    </div><br>
+    <div class="slider-container">
+      <input type="range" min="6" max="100" id="slider" onchange="rangevalue.value = value"/>
+      <output id="rangevalue">16</output>
     </div> 
     <div class="grid-container"></div>
   </body>
